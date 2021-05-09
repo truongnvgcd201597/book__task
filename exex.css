@@ -31,19 +31,19 @@
                 background-image:url("/pic2.jpeg");
              }
             60%{
-                background-image:url("/pic3.jpeg");
+                background-image:url("/pic2.jpeg");
             }
             60.01%{
                 background-image:url("/pic3.jpeg");
             }
             80%{
-                background-image:url("/pic4.jpeg"); 
+                background-image:url("/pic3.jpeg"); 
             }
             80.01%{
-                background-image:url("/pic4.jpeg");
+                background-image:url("/pic3.jpeg");
             }
             100%{
-                background-image:url("/pic4.jpeg");
+                background-image:url("/pic3.jpeg");
             }
         }
         #header{
