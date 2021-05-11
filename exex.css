@@ -5,7 +5,6 @@
             font-family: sans-serif;
         }
         #main{
-           /* background-image: url("/Pnujz0Gg.jpeg"); */
            background-size: cover;
            background-repeat: no-repeat;
            filter: blur(0.1);
@@ -21,25 +20,25 @@
             20%{
                 background-image:url("/pic1.jpeg");
             }
-            20.01%{
+            20.1%{
                 background-image:url("/pic1.jpeg");
             }
             40%{
                background-image:url("/pic2.jpeg");
             }
-            40.01%{
+            40.1%{
                 background-image:url("/pic2.jpeg");
              }
             60%{
                 background-image:url("/pic2.jpeg");
             }
-            60.01%{
+            60.1%{
                 background-image:url("/pic3.jpeg");
             }
             80%{
                 background-image:url("/pic3.jpeg"); 
             }
-            80.01%{
+            80.1%{
                 background-image:url("/pic3.jpeg");
             }
             100%{
@@ -228,8 +227,10 @@
             display: grid;
             grid-template-columns: auto auto auto auto;
             /* padding: 10px; */
-            margin-top: 54px;
-          }
+            position: absolute;
+            bottom: 0;
+            left: 10%;
+        }
           .grid__item {
             padding: 55px 0px;
             font-size: 30px;
